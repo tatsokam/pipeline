@@ -1,15 +1,15 @@
 name: Build Workflow
 
 on:
-  push:guy
+  push
     branches:
       - main
 
 jobs:
-  Test:
+  bluid:
     runs-on: ubuntu-latest
     container:
       image: alpine
     steps:
-      - name: Run un test
-        run: echo "Franck"
+      - name: Run un bluid
+        run: echo "bluid"
