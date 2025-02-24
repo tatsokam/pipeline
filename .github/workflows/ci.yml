@@ -6,10 +6,10 @@ on:
       - main
 
 jobs:
-  bluid:
+  test:
     runs-on: ubuntu-latest
     container:
       image: alpine
     steps:
-      - name: Run un bluid
-        run: echo "bluid"
+      - name: Run un test
+        run: echo "gabriel"
