@@ -6,10 +6,10 @@ on:
       - main
 
 jobs:
-  build:
+  Test:
     runs-on: ubuntu-latest
     container:
       image: alpine
     steps:
-      - name: Run Build
-        run: echo "build"
+      - name: Run un test
+        run: echo "Franck"
